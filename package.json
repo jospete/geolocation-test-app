@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "cordova prepare",
-    "nuke": "rimraf ./node_modules ./platforms ./plugins"
+    "nuke": "rimraf ./node_modules ./platforms ./plugins",
+    "plugin:reinstall": "node ./scripts/reinstall-plugin.js"
   },
   "keywords": [
     "ecosystem:cordova"
