@@ -19,7 +19,8 @@
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-geolocation": "file:../cordova-plugin-geolocation",
     "cordova-plugin-geolocation-tests": "file:plugins/cordova-plugin-geolocation/tests",
-    "cordova-plugin-whitelist": "^1.3.4"
+    "cordova-plugin-whitelist": "^1.3.4",
+    "rimraf": "^3.0.2"
   },
   "cordova": {
     "plugins": {
